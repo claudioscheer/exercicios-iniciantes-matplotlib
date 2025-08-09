@@ -1,21 +1,28 @@
-# Matplotlib Examples
+Repositório com exemplos práticos mostrando como usar a biblioteca Matplotlib em Python.
 
-This repository has some tips on Python and mainly on Matplotlib.
+### Como usar
+- Abra os notebooks da pasta `src` no Jupyter (ou VS Code) e execute as células.
+- Alguns exemplos também possuem versões em script `.py` que podem ser executadas diretamente com Python:
+  - `python src/matplotlib-3d-area.py`
+  - `python src/matplotlib-3d-bar.py`
 
+### Conteúdo (`src`)
+- Linhas: [`matplotlib-line-plot.ipynb`](src/matplotlib-line-plot.ipynb)
+- Barras: [`matplotlib-bar-plot.ipynb`](src/matplotlib-bar-plot.ipynb)
+- Pizza: [`matplotlib-pie-plot.ipynb`](src/matplotlib-pie-plot.ipynb)
+- Subplots: [`matplotlib-subplot.ipynb`](src/matplotlib-subplot.ipynb)
+- Casos do dia a dia: [`real-life-plot.ipynb`](src/real-life-plot.ipynb)
+- 3D (área): [`matplotlib-3d-area.ipynb`](src/matplotlib-3d-area.ipynb)
+- 3D (barras): [`matplotlib-3d-bar.ipynb`](src/matplotlib-3d-bar.ipynb)
 
-# Table of Contents
+### Scripts Python
+- [`matplotlib-3d-area.py`](src/matplotlib-3d-area.py)
+- [`matplotlib-3d-bar.py`](src/matplotlib-3d-bar.py)
 
-This is the table of contents of the [src](src) folder.
+### Requisitos
+- Python 3
+- Bibliotecas: `matplotlib` (e, em alguns exemplos, `numpy`/`pandas`)
 
-## Python
-
-- [Basics of Python 3](src/StartingUpWithPython.ipynb)
-
-## Matplotlib
-
-- [Line plot examples](src/MatplotlibLinePlotExamples.ipynb)
-- [Bar plot examples](src/MatplotlibBarPlotExamples.ipynb)
-- [Pie plot examples](src/MatplotlibPiePlotExamples.ipynb)
-- [Subplot example](src/MatplotlibSubplotExample.ipynb)
-- [Real life plot examples](src/RealLifePlotExamples.ipynb)
-- [3D example](src/Matplotlib3DExample.ipynb) (from [@dineiar](https://github.com/dineiar))
+### Exercícios relacionados
+- Exercícios de Python: [exercicios-iniciantes-python](https://github.com/claudioscheer/exercicios-iniciantes-python)
+- Exercícios de Pandas: ver a seção "Materiais de Apoio" em [exercicios-iniciantes-ia](https://github.com/claudioscheer/exercicios-iniciantes-ia?tab=readme-ov-file#materiais-de-apoio)
